@@ -2,12 +2,14 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
   int N;
   cin >> N;
 
   int arr[N];
-  for (int i = 0; i < N; i++) {
+  for (int i = 0; i < N; i++)
+  {
     cin >> arr[i];
   }
 
@@ -17,7 +19,8 @@ int main() {
   int maxCount = 0;
 
   int i = N - 1;
-  while (arr[i] == maxValue) {
+  while (arr[i] == maxValue)
+  {
     maxCount++;
     i--;
   }
@@ -30,4 +33,6 @@ int main() {
   // }
 
   cout << maxCount << endl;
+
+  return 0;
 }

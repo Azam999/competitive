@@ -35,4 +35,6 @@ int main()
   cout << fixed << setprecision(6) << positiveRatio << endl;
   cout << fixed << setprecision(6) << negativeRatio << endl;
   cout << fixed << setprecision(6) << zeroRatio << endl;
+
+  return 0;
 }

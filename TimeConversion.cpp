@@ -25,7 +25,7 @@ int main()
   }
 
   convertedFrontValue = to_string(frontValue);
-  
+
   if (frontValue < 10) {
     convertedFrontValue.insert(0, "0");
   }
@@ -33,4 +33,6 @@ int main()
   converted.replace(0, 2, convertedFrontValue);
 
   cout << converted << endl;
+
+  return 0;
 }

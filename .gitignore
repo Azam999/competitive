@@ -1,3 +1,6 @@
 a.out
 .vscode
 .DS_Store
+*.in
+*.out
+main
